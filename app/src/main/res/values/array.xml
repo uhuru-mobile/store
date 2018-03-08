@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string-array name="updateIntervalNames">
-        <item>@string/interval_never</item>
-        <item>@string/interval_1h</item>
-        <item>@string/interval_4h</item>
-        <item>@string/interval_12h</item>
-        <item>@string/interval_1d</item>
-        <item>@string/interval_1w</item>
-        <item>@string/interval_2w</item>
-    </string-array>
+	<string-array name="updateIntervalNames">
+		<item>Never</item>
+		<item>Hourly</item>
+		<item>Every 4 Hours</item>
+		<item>Every 12 Hours</item>
+		<item>Daily</item>
+	</string-array>
+	<string-array name="updateIntervalValues">
+		<item>0</item>
+		<item>1</item>
+		<item>4</item>
+		<item>12</item>
+		<item>24</item>
+	</string-array>
 
-    <string-array name="keepCacheNames">
-        <item>@string/keep_hour</item>
-        <item>@string/keep_day</item>
-        <item>@string/keep_week</item>
-        <item>@string/keep_month</item>
-        <item>@string/keep_year</item>
-        <item>@string/keep_forever</item>
-    </string-array>
-
-    <string-array name="themeNames">
-        <item>@string/theme_light</item>
-        <item>@string/theme_dark</item>
-        <item>@string/theme_night</item>
-    </string-array>
-
+	<string-array name="dbSyncModeNames">
+		<item>Off (unsafe)</item>
+		<item>Normal</item>
+		<item>Full</item>
+	</string-array>
+	<string-array name="dbSyncModeValues">
+		<item>off</item>
+		<item>normal</item>
+		<item>full</item>
+	</string-array>
 </resources>
